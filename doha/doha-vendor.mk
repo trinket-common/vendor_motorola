@@ -14,7 +14,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/doha/proprietary/vendor/bin/charge_only_mode:$(TARGET_COPY_OUT_VENDOR)/bin/charge_only_mode \
     vendor/motorola/doha/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets \
     vendor/motorola/doha/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-fpc:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-fpc \
-    vendor/motorola/doha/proprietary/vendor/bin/hw/com.motorola.hardware.display.panel@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/com.motorola.hardware.display.panel@1.0-service \
     vendor/motorola/doha/proprietary/vendor/bin/sensors.qti:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qti \
     vendor/motorola/doha/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/motorola/doha/proprietary/vendor/etc/acdbdata/Codec_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Codec_cal.acdb \
@@ -35,7 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/doha/proprietary/vendor/etc/hdr_tm_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/hdr_tm_config.xml \
     vendor/motorola/doha/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-ets2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service-ets2.rc \
     vendor/motorola/doha/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-fpc2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service-fpc2.rc \
-    vendor/motorola/doha/proprietary/vendor/etc/init/com.motorola.hardware.display.panel@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.motorola.hardware.display.panel@1.0-service.rc \
     vendor/motorola/doha/proprietary/vendor/etc/libnfc-mtp-NQ3XX.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp-NQ3XX.conf \
     vendor/motorola/doha/proprietary/vendor/etc/libnfc-mtp-NQ4XX.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp-NQ4XX.conf \
     vendor/motorola/doha/proprietary/vendor/etc/libnfc-mtp-SN100.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp-SN100.conf \
@@ -237,11 +235,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/doha/proprietary/vendor/firmware/rcv_fast_switch2.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/rcv_fast_switch2.txt \
     vendor/motorola/doha/proprietary/vendor/firmware/spk_fast_switch1.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/spk_fast_switch1.txt \
     vendor/motorola/doha/proprietary/vendor/firmware/spk_fast_switch2.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/spk_fast_switch2.txt \
-    vendor/motorola/doha/proprietary/vendor/lib/com.motorola.hardware.display.panel@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.motorola.hardware.display.panel@1.0.so \
     vendor/motorola/doha/proprietary/vendor/lib/hal_libnfc.so:$(TARGET_COPY_OUT_VENDOR)/lib/hal_libnfc.so \
     vendor/motorola/doha/proprietary/vendor/lib/hw/audio.primary.trinket.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.trinket.so \
     vendor/motorola/doha/proprietary/vendor/lib/hw/camera.trinket.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.trinket.so \
-    vendor/motorola/doha/proprietary/vendor/lib/hw/com.motorola.hardware.display.panel@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.motorola.hardware.display.panel@1.0-impl.so \
     vendor/motorola/doha/proprietary/vendor/lib/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so \
     vendor/motorola/doha/proprietary/vendor/lib/lib_motsensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_motsensorlistener.so \
     vendor/motorola/doha/proprietary/vendor/lib/libactuator_mot_dw9767.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_mot_dw9767.so \
@@ -563,9 +559,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/doha/proprietary/vendor/lib/vendor.nxp.nxpnfc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.nxp.nxpnfc@1.0.so \
     vendor/motorola/doha/proprietary/vendor/lib/vndk/libtinyalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libtinyalsa.so \
     vendor/motorola/doha/proprietary/vendor/lib64/com.fingerprints.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.fingerprints.extension@1.0.so \
-    vendor/motorola/doha/proprietary/vendor/lib64/com.motorola.hardware.display.panel@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.motorola.hardware.display.panel@1.0.so \
     vendor/motorola/doha/proprietary/vendor/lib64/hal_libnfc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hal_libnfc.so \
-    vendor/motorola/doha/proprietary/vendor/lib64/hw/com.motorola.hardware.display.panel@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.motorola.hardware.display.panel@1.0-impl.so \
     vendor/motorola/doha/proprietary/vendor/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so \
     vendor/motorola/doha/proprietary/vendor/lib64/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcdsprpc.so \
     vendor/motorola/doha/proprietary/vendor/lib64/liblog_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblog_vendor.so \
